@@ -3,6 +3,7 @@ package com.luizafmartinez.m11_kotlin
 class Usuario {
 
 }
+
 fun retornaNomeUser() {
     // Processa e retorna o nome
 }
@@ -43,9 +44,5 @@ fun main() {
     val usuario = Usuario() // Instanciando objeto usuario
 
  // var usuario = new Usuario();  ( JAVA )
-
-
-
-
 
 }
