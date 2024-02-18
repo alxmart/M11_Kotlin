@@ -25,13 +25,22 @@ fun main() {
         println("Digite uma opção válida")
     }
 
-    val opt = 6
+    var opt = 6
     if ( opt in 1..3 ) {
         println("opções 1 a 3")
     } else if ( opt in 4..8 ) {
         println("opções 4 a 8")
     } else {
-        println("Diigte opcao válida, de 1 a 8")
+        println("Digite opcao válida, de 1 a 8")
+    }
+
+    opt = 4
+
+    when ( opt ) {
+        1 -> println("Cartão de crédito")
+        2 -> println("Extrato")
+        in 3..5 -> println("Saldo")
+        else -> println("Digite opção válida")
     }
 
 
