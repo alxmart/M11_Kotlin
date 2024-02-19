@@ -47,7 +47,6 @@ class ContaBancaria(
 
         println("Extrato no intervalo: $datainicial e $dataFinal")
     }
-
 }
 
 fun main() {
@@ -86,4 +85,4 @@ Extrato no intervalo: 10/05/2022 e 10/06/2022
 
 Process finished with exit code 0
 
- */
+*/
