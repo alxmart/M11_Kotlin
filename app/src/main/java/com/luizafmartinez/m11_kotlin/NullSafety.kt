@@ -1,6 +1,6 @@
 package com.luizafmartinez.m11_kotlin
 
-class Carro {
+class Carro1 {
 
     var cor = "vermelho"
 
@@ -12,9 +12,9 @@ class Carro {
 
 fun main() {
 
-    var carro: Carro? = null
+    var carro: Carro1? = null
 
-    carro = Carro()
+    carro = Carro1()
 
     val cor = carro?.cor ?: "cor padrão" // Se nulo, exibe cor padrão
 
