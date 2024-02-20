@@ -1,6 +1,6 @@
 package com.luizafmartinez.m11_kotlin
 
-import com.luizafmartinez.recursos.UsuarioX
+//import com.luizafmartinez.recursos.UsuarioX
 
 fun main() {
 
@@ -11,7 +11,7 @@ fun main() {
    /* val gol = Gol()
     gol.acelerar()*/
 
-    val usuario = UsuarioX()
-    usuario.calcularPrecoCorrida()
+    /*val usuario = UsuarioX()
+    usuario.calcularPrecoCorrida()*/
 
 }

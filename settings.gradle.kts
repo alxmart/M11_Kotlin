@@ -14,6 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "M11_Kotlin"
-include(":passageiro")
-include(":motorista")
-include(":recursos")
+include(":app")
